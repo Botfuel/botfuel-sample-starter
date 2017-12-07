@@ -3,5 +3,5 @@ module.exports = {
   locale: 'en',
   adapter: 'shell',
   intentThreshold: 0.75,
-  logger: 'botfuel',
+  logger: 'dev',
 };

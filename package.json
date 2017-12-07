@@ -6,7 +6,7 @@
   "description": "Sample starter bot using botfuel SDK",
   "license": "Apache-2.0",
   "scripts": {
-    "start": "./node_modules/.bin/botfuel-run shell-config",
+    "start": "BOT_ID=starter ./node_modules/.bin/botfuel-run shell-config",
     "train": "./node_modules/.bin/botfuel-train shell-config.js"
   },
   "dependencies": {
