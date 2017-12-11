@@ -9,7 +9,7 @@ class NameView extends PromptView {
       const capitalizedName = `${firstLetter.toUpperCase()}${letters.join('')}`;
 
       return [
-        new BotTextMessage(`So your name is ${capitalizedName}... Hello ${capitalizedName}!`),
+        new BotTextMessage(`Nice to meet you ${capitalizedName}!`),
       ];
     }
 
