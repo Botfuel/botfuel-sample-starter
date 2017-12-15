@@ -1,4 +1,4 @@
-const { TextView } = require('@botfuel/bot-sdk2');
+const { TextView } = require('botfuel-dialog');
 
 class GreetingsView extends TextView {
   getTexts() {

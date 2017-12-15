@@ -1,4 +1,4 @@
-const { PromptView, Messages: { BotTextMessage } } = require('@botfuel/bot-sdk2');
+const { PromptView, BotTextMessage } = require('botfuel-dialog');
 
 class NameView extends PromptView {
   renderEntities(matchedEntities) {

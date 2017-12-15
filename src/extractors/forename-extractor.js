@@ -1,8 +1,6 @@
-'use strict';
+const { WsExtractor } = require('botfuel-dialog');
 
-const sdk2 = require('@botfuel/bot-sdk2');
-
-class NameExtractor extends sdk2.WsExtractor {}
+class NameExtractor extends WsExtractor {}
 
 NameExtractor.params = {
   dimensions: ['forename'],
