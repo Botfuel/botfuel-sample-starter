@@ -1,8 +1,6 @@
-'use strict';
+const { PromptDialog } = require('botfuel-dialog');
 
-const sdk2 = require('@botfuel/bot-sdk2');
-
-class Name extends sdk2.PromptDialog {}
+class Name extends PromptDialog {}
 
 Name.params = {
   namespace: 'name',

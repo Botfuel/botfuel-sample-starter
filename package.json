@@ -1,16 +1,16 @@
 {
-  "name": "sample-bot-starter",
+  "name": "sample-botfuel-dialog-starter",
   "version": "0.1.0",
   "private": true,
   "author": "sysadmin@botfuel.io",
-  "description": "Sample starter bot using botfuel SDK",
+  "description": "Sample starter bot using botfuel-dialog",
   "license": "Apache-2.0",
   "scripts": {
-    "start": "BOT_ID=starter ./node_modules/.bin/botfuel-run shell-config",
-    "train": "./node_modules/.bin/botfuel-train shell-config.js"
+    "start": "botfuel-run",
+    "train": "botfuel-train"
   },
   "dependencies": {
-    "@botfuel/bot-sdk2": "^0.49.0",
+    "botfuel-dialog": "latest",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
