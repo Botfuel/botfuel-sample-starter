@@ -1,6 +1,6 @@
 # sample-botfuel-dialog-starter
 
-This sample bot is used in [GETTING_STARTED](https://github.com/Botfuel/botfuel-dialog/blob/master/GETTING_STARTED.md).
+This sample bot is used in [**Getting Started**](https://github.com/Botfuel/botfuel-dialog/blob/master/GETTING_STARTED.md).
 
 ## How to run the bot
 
@@ -37,7 +37,7 @@ Try typing `Hello` or `My name is <YOUR_NAME>`!
 
 ## Need help ?
 
-- See [CONCEPTS](https://github.com/Botfuel/botfuel-dialog/blob/master/CONCEPTS.md) for explanations about the internals of the SDK.
+- See [**Concepts**](https://github.com/Botfuel/botfuel-dialog/blob/master/CONCEPTS.md) for explanations about the internals of the SDK.
 
 ## License
 
