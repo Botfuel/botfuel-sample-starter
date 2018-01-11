@@ -20,16 +20,16 @@ npm install
 Start the bot:
 
 ```shell
-BOTFUEL_APP_TOKEN=<YOUR BOT ID> BOTFUEL_APP_ID=<YOUR BOTFUEL_APP_ID> BOTFUEL_APP_KEY=<YOUR BOTFUEL_APP_KEY> npm start
+BOTFUEL_APP_TOKEN=<YOUR_BOT_ID> BOTFUEL_APP_ID=<YOUR_BOTFUEL_APP_ID> BOTFUEL_APP_KEY=<YOUR_BOTFUEL_APP_KEY> npm start
 ```
 
 If you set your app credentials right, you should see:
 
 ```shell
 2017-12-07T16:12:09.131Z - info: [Config] You didn't specify any config file, using default config.
-2017-12-07T16:12:09.131Z - info: [Bot] BOTFUEL_APP_TOKEN starter
-2017-12-07T16:12:09.133Z - info: [Bot] BOTFUEL_APP_ID <YOUR_BOTFUEL_APP_ID>
-2017-12-07T16:12:09.133Z - info: [Bot] BOTFUEL_APP_KEY <YOUR_BOTFUEL_APP_KEY>
+2017-12-07T16:12:09.131Z - info: [Environment] BOTFUEL_APP_TOKEN=<YOUR_BOT_ID>
+2017-12-07T16:12:09.133Z - info: [Environment] BOTFUEL_APP_ID=<YOUR_BOTFUEL_APP_ID>
+2017-12-07T16:12:09.133Z - info: [Environment] BOTFUEL_APP_KEY=<YOUR_BOTFUEL_APP_KEY>
 > onboarding
 ```
 
