@@ -1,4 +1,4 @@
-# sample-botfuel-dialog-starter
+# botfuel-sample-starter
 
 This sample bot is used in [**Getting Started**](https://docs.botfuel.io/dialog/tutorials/getting-started).
 
@@ -7,13 +7,13 @@ This sample bot is used in [**Getting Started**](https://docs.botfuel.io/dialog/
 Clone the repository:
 
 ```shell
-git clone git@github.com:Botfuel/sample-botfuel-dialog-starter.git
+git clone git@github.com:Botfuel/botfuel-sample-starter.git
 ```
 
 Install dependencies:
 
 ```shell
-cd sample-botfuel-dialog-starter
+cd botfuel-sample-starter
 npm install
 ```
 

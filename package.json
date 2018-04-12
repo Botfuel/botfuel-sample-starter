@@ -1,12 +1,12 @@
 {
-  "name": "sample-botfuel-dialog-starter",
+  "name": "botfuel-sample-starter",
   "version": "0.1.0",
   "private": true,
   "author": "sysadmin@botfuel.io",
   "description": "Sample starter bot using botfuel-dialog",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Botfuel/sample-botfuel-dialog-starter"
+    "url": "https://github.com/Botfuel/botfuel-sample-starter"
   },
   "license": "Apache-2.0",
   "scripts": {
