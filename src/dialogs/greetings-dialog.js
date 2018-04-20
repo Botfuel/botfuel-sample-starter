@@ -1,5 +1,5 @@
-const { TextDialog } = require('botfuel-dialog');
+const { BaseDialog } = require('botfuel-dialog');
 
-class Greetings extends TextDialog {}
+class Greetings extends BaseDialog {}
 
 module.exports = Greetings;
