@@ -1,6 +1,6 @@
 {
   "name": "botfuel-sample-starter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "author": "sysadmin@botfuel.io",
   "description": "Sample starter bot using botfuel-dialog",
@@ -11,10 +11,12 @@
   "license": "Apache-2.0",
   "scripts": {
     "start": "botfuel-run",
+    "style": "eslint .",
+    "test": "jest",
     "train": "botfuel-train"
   },
   "dependencies": {
-    "botfuel-dialog": "^5.0.0"
+    "botfuel-dialog": "^7.0.0"
   },
   "devDependencies": {
     "eslint": "3.19.0",
@@ -24,7 +26,8 @@
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-mocha": "^4.11.0",
     "eslint-plugin-node": "^5.1.0",
-    "eslint-plugin-react": "^7.1.0"
+    "eslint-plugin-react": "^7.1.0",
+    "jest": "^22.4.3"
   },
   "engines": {
     "node": "8.x"
