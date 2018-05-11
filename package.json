@@ -1,6 +1,6 @@
 {
   "name": "botfuel-sample-starter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "author": "sysadmin@botfuel.io",
   "description": "Sample starter bot using botfuel-dialog",
@@ -16,7 +16,7 @@
     "train": "botfuel-train"
   },
   "dependencies": {
-    "botfuel-dialog": "^7.0.0"
+    "botfuel-dialog": "^7.2.1"
   },
   "devDependencies": {
     "eslint": "3.19.0",
