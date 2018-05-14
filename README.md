@@ -36,8 +36,8 @@ Try typing `Hello` or `My name is <YOUR_NAME>`!
 
 ## Need help ?
 
-- See [**Getting Started**](https://docs.botfuel.io/dialog/tutorials/getting-started) to learn how to run a bot in minutes.
-- See [**Concepts**](https://docs.botfuel.io/dialog/concepts) for explanations about the internals of the SDK.
+- See [**Getting Started**](https://docs.botfuel.io/platform/tutorials/getting-started) to learn how to run a bot in minutes.
+- See [**Concepts**](https://docs.botfuel.io/platform/concepts) for explanations about the internals of the SDK.
 
 ## License
 
