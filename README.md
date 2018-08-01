@@ -1,6 +1,6 @@
 # botfuel-sample-starter
 
-This sample bot is used in [**Getting Started**](https://docs.botfuel.io/dialog/tutorials/getting-started).
+This sample bot is used in [**Getting Started**](https://tutorials.botfuel.io/#/codelab/getting-started?step=1).
 
 ## Create an app
 
@@ -48,7 +48,7 @@ Try typing `Hello` or `My name is <YOUR_NAME>`!
 
 ## Need help ?
 
-* See [**Getting Started**](https://docs.botfuel.io/platform/tutorials/getting-started) to learn how to run a bot in minutes.
+* See [**Getting Started**](https://tutorials.botfuel.io/#/codelab/getting-started?step=1) to learn how to run a bot in minutes.
 * See [**Concepts**](https://docs.botfuel.io/platform/concepts) for explanations about the internals of the SDK.
 
 ## License
