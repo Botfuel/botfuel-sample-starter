@@ -1,0 +1,133 @@
+/**
+ * This stylesheet document Webchat component's classes
+ * And how developers can custom them
+ *
+ * Each classes as a "bf-" prefix to prevent conflicts with element's classes of the website
+ * on which the Webchat is loaded
+ */
+
+/**
+ * ROOT
+ */
+
+.bf-webchat {
+	/**
+	 * Webchat root element.
+	 * No styles are applied to this element but you can use it to ensure that
+	 * you are always targeting an element of the Webchat
+	 */
+}
+
+/**
+ * WRAPPER
+ */
+
+.bf-webchat .bf-webchat-wrapper {
+	/**
+	 * Webchat wrapper is responsible of position of the Webchat in the page
+	 * By default the Webchat is at the bottom right of the website and his position is fixed
+	 */
+}
+
+/**
+ * START BUTTON
+ */
+
+.bf-webchat .bf-webchat-start-button {
+	/**
+	 * Webchat toggle button used to open the webchat when it's loaded closed
+	 */
+}
+
+/**
+ * CONTENT CONTAINER
+ */
+
+.bf-webchat .bf-webchat-container {
+	/**
+	 * Webchat content container
+	 */
+}
+
+/**
+ * CONTENT HEADER
+ */
+
+.bf-webchat .bf-webchat-header {
+	/**
+	 * Webchat header
+	 * Contains expand/close buttons + webchat title
+	 */
+}
+
+.bf-webchat .bf-webchat-expand-button {
+	/**
+	 * Webchat header expand button
+	 */
+}
+
+.bf-webchat .bf-webchat-close-button {
+	/**
+	 * Webchat header expand button
+	 */
+}
+
+/**
+ * CONTENT MESSAGES LIST
+ */
+
+.bf-webchat .bf-message-list-container {
+	/* Message list container */
+}
+
+.bf-webchat .bf-help-message {
+	/* Help message displayed under the header in the message list container */
+}
+
+.bf-webchat .bf-message-list {
+	/* Message list displayed in message list container */
+}
+
+.bf-webchat .bf-quickreplies {
+	/* Quickreplies displayed a the bottom of message list container */
+}
+
+.bf-webchat .bf-quickreplies .bf-action-button {
+	/* Quickreplies actions button */
+}
+
+/**
+ * CONTENT INPUT
+ */
+
+.bf-webchat .bf-input-wrapper {
+	/* Input wrapper */
+}
+
+.bf-webchat .bf-input-container {
+	/* Input container */
+}
+
+.bf-webchat .bf-input-menu {
+	/* Input menu container */
+}
+
+.bf-webchat .bf-input-menu-button {
+	/* Input menu button */
+}
+
+.bf-webchat .bf-input-menu-list {
+	/* Input menu items list */
+}
+
+.bf-webchat .bf-input-menu-list-item {
+	/* Input menu list item */
+}
+
+.bf-webchat .bf-input-textarea {
+	/* Input text area */
+}
+
+.bf-webchat .bf-input-send-button {
+	/* Input send button */
+}
