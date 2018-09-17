@@ -12,7 +12,7 @@
   "scripts": {
     "start": "botfuel-run",
     "style": "eslint .",
-    "test": "jest",
+    "test": "jest --colors",
     "train": "botfuel-train"
   },
   "dependencies": {
