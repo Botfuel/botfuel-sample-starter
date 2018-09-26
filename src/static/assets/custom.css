@@ -7,13 +7,13 @@
  */
 
 /**
- * ROOT
+ * WEBCHAT ROOT CONTAINER
  */
 
 .bf-webchat {
 	/**
-	 * Webchat root element.
-	 * No styles are applied to this element but you can use it to ensure that
+	 * Webchat root container.
+	 * No styles are applied to this element but you have to use it to ensure that
 	 * you are always targeting an element of the Webchat
 	 */
 }
@@ -22,112 +22,192 @@
  * WRAPPER
  */
 
-.bf-webchat .bf-webchat-wrapper {
-	/**
-	 * Webchat wrapper is responsible of position of the Webchat in the page
-	 * By default the Webchat is at the bottom right of the website and his position is fixed
-	 */
-}
+/**
+ * Main wrapper of the webchat which is responsible of the position of the webchat
+ *
+ * By default the Webchat is at the bottom right of the website and his position is fixed
+ */
+.bf-webchat .bf-webchat-wrapper { }
 
 /**
  * START BUTTON
  */
 
-.bf-webchat .bf-webchat-start-button {
-	/**
-	 * Webchat toggle button used to open the webchat when it's loaded closed
-	 */
-}
+/**
+ * Container of the button used to open the webchat when it's loaded closed
+ *
+ * This container manage the position of the start button
+ */
+.bf-webchat .bf-webchat-start-button { }
+
+/* Container that manage the background and the size of the start button */
+.bf-webchat .bf-webchat-start-button > div { }
 
 /**
  * CONTENT CONTAINER
  */
 
-.bf-webchat .bf-webchat-container {
-	/**
-	 * Webchat content container
-	 */
-}
+/* Contain the header, the message list and the input of the webchat */
+.bf-webchat .bf-webchat-container { }
 
 /**
- * CONTENT HEADER
+ * HEADER
  */
 
-.bf-webchat .bf-webchat-header {
-	/**
-	 * Webchat header
-	 * Contains expand/close buttons + webchat title
-	 */
-}
+/* Webchat header that contains the expand and close buttons and the title of the webchat */
+.bf-webchat .bf-webchat-header { }
 
-.bf-webchat .bf-webchat-expand-button {
-	/**
-	 * Webchat header expand button
-	 */
-}
+/* Expand button displayed on the right in the header of the webchat */
+.bf-webchat .bf-webchat-expand-button { }
 
-.bf-webchat .bf-webchat-close-button {
-	/**
-	 * Webchat header expand button
-	 */
-}
+/* Close button displayed on the right in the header of the webchat */
+.bf-webchat .bf-webchat-close-button { }
 
 /**
- * CONTENT MESSAGES LIST
+ * MESSAGES LIST
  */
 
-.bf-webchat .bf-message-list-container {
-	/* Message list container */
-}
+/* Message list container */
+.bf-webchat .bf-message-list-container { }
 
-.bf-webchat .bf-help-message {
-	/* Help message displayed under the header in the message list container */
-}
+/* Help message displayed under the header in the message list container */
+.bf-webchat .bf-help-message { }
 
-.bf-webchat .bf-message-list {
-	/* Message list displayed in message list container */
-}
-
-.bf-webchat .bf-quickreplies {
-	/* Quickreplies displayed a the bottom of message list container */
-}
-
-.bf-webchat .bf-quickreplies .bf-action-button {
-	/* Quickreplies actions button */
-}
+/* Message list displayed in the message list container */
+.bf-webchat .bf-message-list { }
 
 /**
- * CONTENT INPUT
+ * INPUT
  */
 
-.bf-webchat .bf-input-wrapper {
-	/* Input wrapper */
-}
+/* Input wrapper */
+.bf-webchat .bf-input-wrapper { }
 
-.bf-webchat .bf-input-container {
-	/* Input container */
-}
+/* Input container */
+.bf-webchat .bf-input-container { }
 
-.bf-webchat .bf-input-menu {
-	/* Input menu container */
-}
+/**
+ * Input menu
+ *
+ * This menu is displayed on the left of the input wrapper when you define some menu actions
+ */
 
-.bf-webchat .bf-input-menu-button {
-	/* Input menu button */
-}
+/* Container of the input menu actions */
+.bf-webchat .bf-input-menu { }
 
-.bf-webchat .bf-input-menu-list {
-	/* Input menu items list */
-}
+/* Button used to open the input menu */
+.bf-webchat .bf-input-menu-button { }
 
-.bf-webchat .bf-input-menu-list-item {
-	/* Input menu list item */
-}
+/* List of the input menu actions items */
+.bf-webchat .bf-input-menu-list { }
 
-.bf-webchat .bf-input-textarea {
-	/* Input text area */
-}
+/* Item of the menu actions list */
+.bf-webchat .bf-input-menu-list-item { }
 
-.bf-webchat .bf-input-send-button {
-	/* Input send button */
-}
+/* Input text area, where the user type the text to send */
+.bf-webchat .bf-input-textarea { }
+
+/* Input send button used to submit the text */
+.bf-webchat .bf-input-send-button { }
+
+/**
+ * MESSAGES
+ */
+
+/* Message container is the container for messages of type text, table and images */
+.bf-webchat .bf-message-container { }
+
+/* User message container, used for user messages */
+.bf-webchat .bf-message-container.bf-user { }
+
+/* Bot message container, used for bot messages */
+.bf-webchat .bf-message-container.bf-bot { }
+
+/* Avatar displayed on the left of bot messages */
+.bf-webchat .bf-message-container .bf-user-avatar { }
+
+/* Server message container, used for messages sent by the server of the webchat */
+.bf-webchat .bf-message-container.bf-server { }
+
+/**
+ * Text message
+ */
+
+/* Text messages container */
+.bf-webchat .bf-text-message { }
+
+/* Text messages content */
+.bf-webchat .bf-text-message span { }
+
+/**
+ * Actions message
+ */
+
+/* Actions container is a specific container for ActionsMessage */
+.bf-webchat .bf-actions-container { }
+
+/* Actions message button element */
+.bf-webchat .bf-actions-container .bf-action-button { }
+
+/* Actions message link element */
+.bf-webchat .bf-actions-container .bf-action-link { }
+
+/**
+ * Cards
+ */
+
+/* Carousel container is a specific container for cards message */
+.bf-webchat .bf-carousel { }
+
+/**
+ * Quick replies
+ *
+ * They are a special king of message displayed at the bottom of the message list container
+ */
+
+/* Quick replies message container */
+.bf-webchat .bf-quickreplies { }
+
+/* Quick replies choices button */
+.bf-webchat .bf-quickreplies .bf-action-button { }
+
+/**
+ * Image message
+ */
+
+/* Image messages container */
+.bf-webchat .bf-image-message { }
+
+/* Image content */
+.bf-webchat .bf-image-message img { }
+
+/**
+ * Table message
+ */
+
+/* Table messages container */
+.bf-webchat .bf-table-message { }
+
+/* Table element */
+.bf-webchat .bf-table-message table { }
+
+/* Table row in the head AND the body of the table */
+.bf-webchat .bf-table-message table tr { }
+
+/* Table head */
+.bf-webchat .bf-table-message table thead { }
+
+/* Table head row */
+.bf-webchat .bf-table-message table thead tr { }
+
+/* Table head row item */
+.bf-webchat .bf-table-message table thead th { }
+
+/* Table body */
+.bf-webchat .bf-table-message table tbody { }
+
+/* Table body row */
+.bf-webchat .bf-table-message table tbody tr { }
+
+/* Table body row item */
+.bf-webchat .bf-table-message table tbody tr td { }
