@@ -10,28 +10,12 @@
   },
   "license": "Apache-2.0",
   "scripts": {
-    "start": "botfuel-run",
-    "start:botfuel": "BOTFUEL_APP_TOKEN=1409617695610 BOTFUEL_APP_ID=b80e2d1d BOTFUEL_APP_KEY=a835fd9e6f8830d93cce7853d16014bd yarn start botfuel-config",
-    "dev:botfuel": "CHAT_SERVER=http://localhost:7001 BOTFUEL_APP_TOKEN=1409617695610 BOTFUEL_APP_ID=b80e2d1d BOTFUEL_APP_KEY=a835fd9e6f8830d93cce7853d16014bd yarn start botfuel-config",
-    "dev:iadvize": "BOTFUEL_APP_TOKEN=1409617695610 BOTFUEL_APP_ID=b80e2d1d BOTFUEL_APP_KEY=a835fd9e6f8830d93cce7853d16014bd yarn start iadvize-config",
-    "style": "eslint .",
+    "start": "BOTFUEL_APP_TOKEN=1409617695610 BOTFUEL_APP_ID=b80e2d1d BOTFUEL_APP_KEY=a835fd9e6f8830d93cce7853d16014bd botfuel-run botfuel-config"
   },
   "dependencies": {
-    "botfuel-dialog": "^11.3.0",
-    "botfuel-module-adapter-iadvize": "^2.0.1"
-  },
-  "devDependencies": {
-    "eslint": "3.19.0",
-    "eslint-config-airbnb": "^15.0.1",
-    "eslint-plugin-babel": "^4.1.1",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^5.1.1",
-    "eslint-plugin-mocha": "^4.11.0",
-    "eslint-plugin-node": "^5.1.0",
-    "eslint-plugin-react": "^7.1.0",
-    "jest": "^22.4.3"
+    "botfuel-dialog": "^12.1.0"
   },
   "engines": {
-    "node": "8.x"
+    "node": "10.x"
   }
 }
