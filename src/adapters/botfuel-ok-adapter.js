@@ -16,11 +16,13 @@ module.exports = measureTime;
 
 class BotfuelOkAdapter extends BotfuelAdapter {
   /** @inheritDoc */
+  /**
   async handleRequest(req, res) {
     logger.debug('handleRequest', req.body);
     res.sendStatus(200);
     await measureTime('Bot handled message')(() => this.handleMessage(req.body));
   }
+   */
 
   async handleMessage(userMessage) {
     await this.addUserIfNecessary(userMessage.user);
