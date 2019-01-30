@@ -13,7 +13,8 @@
     "start": "BOTFUEL_APP_TOKEN=1409617695610 BOTFUEL_APP_ID=b80e2d1d BOTFUEL_APP_KEY=a835fd9e6f8830d93cce7853d16014bd botfuel-run botfuel-config"
   },
   "dependencies": {
-    "botfuel-dialog": "^12.1.0"
+    "botfuel-dialog": "^12.1.0",
+    "convert-hrtime": "^2.0.0"
   },
   "engines": {
     "node": "10.x"
