@@ -561,6 +561,10 @@ botfuel-dialog@^11.3.0:
     valid-url "^1.0.9"
     winston "^2.4.0"
 
+botfuel-module-adapter-iadvize@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/botfuel-module-adapter-iadvize/-/botfuel-module-adapter-iadvize-2.0.1.tgz#290ccc8b593a6e28dc415c87fef2c15cef0e51d7"
+
 botfuel-nlp-sdk@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/botfuel-nlp-sdk/-/botfuel-nlp-sdk-1.1.1.tgz#330ee48621a48e9f687072fcc5a7c063dde3010d"

@@ -11,15 +11,14 @@
   "license": "Apache-2.0",
   "scripts": {
     "start": "botfuel-run",
-    "dev:botfuel": "BOTFUEL_APP_TOKEN=1409617695610 BOTFUEL_APP_ID=b80e2d1d BOTFUEL_APP_KEY=a835fd9e6f8830d93cce7853d16014bd yarn start botfuel-config",
+    "start:botfuel": "BOTFUEL_APP_TOKEN=1409617695610 BOTFUEL_APP_ID=b80e2d1d BOTFUEL_APP_KEY=a835fd9e6f8830d93cce7853d16014bd yarn start botfuel-config",
+    "dev:botfuel": "CHAT_SERVER=http://localhost:7001 BOTFUEL_APP_TOKEN=1409617695610 BOTFUEL_APP_ID=b80e2d1d BOTFUEL_APP_KEY=a835fd9e6f8830d93cce7853d16014bd yarn start botfuel-config",
     "dev:iadvize": "BOTFUEL_APP_TOKEN=1409617695610 BOTFUEL_APP_ID=b80e2d1d BOTFUEL_APP_KEY=a835fd9e6f8830d93cce7853d16014bd yarn start iadvize-config",
     "style": "eslint .",
-    "test": "jest",
-    "train": "botfuel-train"
   },
   "dependencies": {
     "botfuel-dialog": "^11.3.0",
-    "botfuel-module-adapter-iadvize": "1.0.0"
+    "botfuel-module-adapter-iadvize": "^2.0.1"
   },
   "devDependencies": {
     "eslint": "3.19.0",

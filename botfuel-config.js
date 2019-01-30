@@ -1,6 +1,6 @@
 module.exports = {
   adapter: {
-    name: 'botfuel',
+    name: 'botfuel-ok',
   },
   logger: 'info',
 };
